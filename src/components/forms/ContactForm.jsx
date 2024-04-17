@@ -19,12 +19,12 @@ const ContactForm = () => {
           className="text-white placeholder-white text-lg bg-transparent border-b border-black outline-none focus:border-none "
         />
         <Button
-          text="->"
+          text=""
           style={{
             backgroundImage: `url(${backgroundImage})`,
             hover: { color: "red" },
           }}
-          className="w-full sm:w-auto"
+          className="w-full justify-center sm:w-auto"
         />
       </form>
     </div>

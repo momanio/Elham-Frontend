@@ -10,17 +10,16 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="bg-transparent fixed bottom-5 left-0 z-50 w-full h-16 items-center">
+    <nav className="bg-transparent fixed py-10 bottom-5 left-0 z-50 w-full h-16 items-center">
       <div className="container mx-auto flex justify-between items-center">
-        <div className="hidden font-extrabold text-xl md:flex">
+        <div className="inline font-normal text-xl md:flex">
           <Button
             text="Eng"
             style={{ hover: { color: "white" } }}
             className="w-full"
           />
-          <FontAwesomeIcon icon="fa-solid fa-circle-arrow-down" />
         </div>
-        <div className="hidden font-extrabold text-xl md:flex">
+        <div className="inline font-normal  md:flex">
           <LinkWithAnimation
             path="process"
             text="Scroll Down"
@@ -30,13 +29,14 @@ const NavBar = () => {
           />
         </div>
 
-        <div className="hidden lg:flex justify-between items-center gap-4">
+        <div className="inline lg:flex justify-between items-center gap-4">
           <LinkWithAnimation
             path="home"
             text="X"
             color="white"
             hoverColor="rgb(209 213 219)"
           />
+
           <LinkWithAnimation
             path="aboutUs"
             text="X"

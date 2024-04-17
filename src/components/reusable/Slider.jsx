@@ -3,7 +3,6 @@
 import { useState } from "react";
 import { faArrowRight, faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { ssImg } from "../../assets/gallery";
 import Title from "../UI/Title";
 
 const Slider = ({ clients }) => {
@@ -20,9 +19,9 @@ const Slider = ({ clients }) => {
   };
 
   return (
-    <div className="hidden md:flex flex-col max-w-full mx-auto my-5 md:my-10 lg:my-16">
+    <div className="hidden md:flex flex-col max-w-xl mx-auto my-5 md:my-10 lg:my-16">
       <div className="mb-8">
-        <Title style={{ color: "#fff" }} text="UI/UX Design" />
+        <Title style={{ color: "rgb(34 197 94)" }} text="Customer Reviews" />
       </div>
       <div className="flex items-center">
         <button
@@ -38,10 +37,14 @@ const Slider = ({ clients }) => {
               transform: `translateX(-${currentIndex * 100}%)`,
             }}
           >
-            {/* {clients.map((client) => (
+            {clients.map((client) => (
               <div key={client?.id} className="flex-shrink-0 w-full flex-wrap">
                 <div className="bg-gray-100 p-4 rounded-lg">
+                  <p className="text-gray-800">{client.comment}</p>
                   <div className="flex flex-row justify-center gap-5 mt-5">
+                    <h1 className="text-black mt-2 font-extrabold text-xl">
+                      {client.name}
+                    </h1>
                     <img
                       src={client.avatar}
                       alt={`${client.name} avatar`}
@@ -50,18 +53,7 @@ const Slider = ({ clients }) => {
                   </div>
                 </div>
               </div>
-            ))} */}
-            <div key={0} className="flex-shrink-0 w-full flex-wrap">
-              <div className="bg-gray-100 p-4 rounded-lg">
-                <div className="flex flex-row justify-center gap-5 mt-5">
-                  <img
-                    src={ssImg}
-                    alt="dsfsdf"
-                    className="w-2/5 h-auto full mb-4"
-                  />
-                </div>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
         <button

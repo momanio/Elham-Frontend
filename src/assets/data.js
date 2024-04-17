@@ -1,23 +1,24 @@
+import servicesUX from "../assets/images/serviceUX.png";
+import serviceDevelopment from "../assets/images/serviceDevelopment.png";
+
 export const clients = [
   {
     id: 1,
-    name: "Ashley Addison",
+    name: "UI/UX",
     comment:
       "Had an amazing time exploring new destinations with the travel agency!",
-    avatar: "https://webtechnologybd.com/template/delite/img/testimonial-2.jpg",
+    image: servicesUX,
   },
   {
     id: 2,
-    name: "John Mitchell",
-    comment:
-      "The travel agency always delivers exceptional service, making my vacations memorable!",
-    avatar: "https://webtechnologybd.com/template/delite/img/testimonial-1.jpg",
+    name: "Development",
+    comment: "",
+    image: serviceDevelopment,
   },
   {
     id: 3,
-    name: "Elijah Turner",
+    name: "Investment",
     comment:
       "Thanks to the travel agency for organizing a fantastic trip. Utterly satisfied!",
-    avatar: "https://webtechnologybd.com/template/delite/img/testimonial-3.jpg",
   },
 ];

@@ -8,26 +8,33 @@ const Process = () => {
   return (
     <div
       id="process"
-      className="h-screen bg-center bg-no-repeat bg-cover flex items-center justify-center"
+      className="h-screen bg-center bg-no-repeat bg-cover  flex items-center justify-center"
       style={{
         backgroundImage: `url(${backgroundImage})`,
       }}
     >
-      <div className="text-white text-center">
-        <h1
+      <div className="text-white text-center py-10">
+        <h2
           className="text-5xl font-bold  my-3 #fff "
           style={{
+            width: "398px",
+            height: "127px",
+            margin: "152px 145.3px 26px 227px",
+            textShadow: "5px 5px 20px #000",
+            fontStretch: "normal",
             fontFamily: "Philosopher",
             fontSize: "60px",
             fontWeight: "bold",
             lineHeight: "1",
+            letterSpacing: "normal",
+            textAlign: "center",
             color: "#fff",
           }}
         >
           Our Process
-        </h1>
-        <div className=" grid-cols-5 gap-1 pt-16">
-          <div className="flex justify-center flex-nowrap gap-2 items-center">
+        </h2>
+        <div className=" grid-cols-5 gap-1 m-5">
+          <div className="flex justify-center   items-center">
             <TourCard image={ideat} title="ideat" />
             <TourCard image={define} title="define" />
             <TourCard image={design} title="design" />

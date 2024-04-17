@@ -9,11 +9,6 @@ const CommentCard = ({ client }) => {
           <h1 className="text-black mt-2 font-extrabold text-xl">
             {client.name}
           </h1>
-          <img
-            src={client.avatar}
-            alt={`${client.name} avatar`}
-            className="w-12 h-12 rounded-full mb-4"
-          />
         </div>
       </div>
     </div>
