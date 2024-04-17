@@ -1,7 +1,6 @@
 import Title from "../components/UI/Title";
-import TourCard from "../components/reusable/TourCard";
-import { ideat, define, design, build, deploy } from "../assets/gallery";
-
+import Slider from "../components/reusable/Slider";
+import { clients } from "../assets/data";
 const Services = () => {
   return (
     <div
@@ -11,12 +10,8 @@ const Services = () => {
       <div className="py-2">
         <Title style={{ color: "white" }} text="Our Services" />
       </div>
-      <div className="grid grid-cols-5  justify-center ml-10 mr-10  my-5  px-10 ">
-        <TourCard image={ideat} title="ideat" />
-        <TourCard image={define} title="define" />
-        <TourCard image={design} title="design" />
-        <TourCard image={build} title="build" />
-        <TourCard image={deploy} title="deploy" />
+      <div>
+        <Slider clients={clients} />
       </div>
     </div>
   );

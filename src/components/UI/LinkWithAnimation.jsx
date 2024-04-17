@@ -27,7 +27,7 @@ const LinkWithAnimation = ({
     <Link
       to={path}
       smooth={true}
-      duration={500}
+      duration={1000}
       style={{ ...link, ...style }}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}

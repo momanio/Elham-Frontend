@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import backgroundImage from "../assets/images/BG2@2x.png";
-import ServiceCard from "../components/reusable/ServiceCard";
+import TourCard from "../components/reusable/TourCard";
 import { ideat, define, design, build, deploy } from "../assets/gallery";
 import Button from "../components/UI/Button";
 
@@ -26,33 +26,13 @@ const Process = () => {
         >
           Our Process
         </h1>
-        <div className="grid-cols-5 gap-2 ">
-          <div className="flex justify-center flex-nowrap gap-3 items-center">
-            <ServiceCard
-              icon={ideat}
-              title="ideat"
-              description="Unlock the skies with seamless."
-            />
-            <ServiceCard
-              icon={define}
-              title="define"
-              description="Indulge in our exclusive Top Package, "
-            />
-            <ServiceCard
-              icon={design}
-              title="design"
-              description="Discover a home away from home with our hotel booking service. From cozy retreats to lavish escapes, we ensure a perfect stay tailored to your preferences."
-            />
-            <ServiceCard
-              icon={build}
-              title="build"
-              description="Embark on an Amazing Tour with us, where every moment is a masterpiece. Immerse yourself in unforgettable experiences and create memories that last a lifetime."
-            />
-            <ServiceCard
-              icon={deploy}
-              title="deploy"
-              description="Uncover the Best Destinations with our expertly crafted itineraries. Whether you seek adventure, relaxation, or cultural exploration, we guide you to the most captivating places on Earth."
-            />
+        <div className=" grid-cols-5 gap-1 pt-16">
+          <div className="flex justify-center flex-nowrap gap-2 items-center">
+            <TourCard image={ideat} title="ideat" />
+            <TourCard image={define} title="define" />
+            <TourCard image={design} title="design" />
+            <TourCard image={build} title="build" />
+            <TourCard image={deploy} title="deploy" />
           </div>
         </div>
         <div className="py-10 text-white text-center">

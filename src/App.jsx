@@ -1,6 +1,5 @@
 /* eslint-disable no-unused-vars */
 
-import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Services from "./pages/Services";
 import Home from "./pages/Home";
@@ -14,7 +13,7 @@ function App() {
       <Home />
       <Process />
       <Services />
-      <About />
+
       <Contact />
     </div>
   );

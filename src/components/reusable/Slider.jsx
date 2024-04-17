@@ -20,9 +20,9 @@ const Slider = ({ clients }) => {
   };
 
   return (
-    <div className="hidden md:flex flex-col max-w-xl mx-auto my-5 md:my-10 lg:my-16">
+    <div className="hidden md:flex flex-col max-w-full mx-auto my-5 md:my-10 lg:my-16">
       <div className="mb-8">
-        <Title style={{ color: "rgb(34 197 94)" }} text="UI/UX Design" />
+        <Title style={{ color: "#fff" }} text="UI/UX Design" />
       </div>
       <div className="flex items-center">
         <button
@@ -57,7 +57,7 @@ const Slider = ({ clients }) => {
                   <img
                     src={ssImg}
                     alt="dsfsdf"
-                    className="w-100 h-12 full mb-4"
+                    className="w-2/5 h-auto full mb-4"
                   />
                 </div>
               </div>
