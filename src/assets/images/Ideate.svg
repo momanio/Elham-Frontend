@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="134" height="134" viewBox="0 0 134 134">
+    <defs>
+        <linearGradient id="k4p8g5mktb" x1="1" y1="-.027" x2=".106" y2="-.036" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#a433f0"/>
+            <stop offset="1" stop-color="#bebebf"/>
+        </linearGradient>
+        <linearGradient id="4a7ke1605c" x1=".5" x2=".5" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#fff" stop-opacity=".839"/>
+            <stop offset="1" stop-color="#e4bcff"/>
+        </linearGradient>
+        <filter id="fu0by2scfa" x="0" y="0" width="134" height="134" filterUnits="userSpaceOnUse">
+            <feOffset/>
+            <feGaussianBlur stdDeviation="10" result="blur"/>
+            <feFlood flood-color="#c876ff"/>
+            <feComposite operator="in" in2="blur"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g style="filter:url(#fu0by2scfa)">
+        <circle data-name="Ellipse 3385" cx="37" cy="37" r="37" transform="translate(30 30)" style="fill:url(#k4p8g5mktb)"/>
+    </g>
+    <path data-name="Path 48885" d="M66.553 0a14.268 14.268 0 0 0-6.068 27.19v4.378a4.54 4.54 0 0 0 4.532 4.532h3.072a4.727 4.727 0 0 0 4.685-4.532v-4.455A14.265 14.265 0 0 0 66.553 0zm3.072 31.491a1.541 1.541 0 0 1-1.536 1.536H64.94a1.541 1.541 0 0 1-1.54-1.536v-3.38a14.17 14.17 0 0 0 6.221 0v3.379zm1-6.682c-.077 0-.077.077-.154.077a14.135 14.135 0 0 1-7.988-.077 11.291 11.291 0 1 1 8.141 0z" style="fill:url(#4a7ke1605c)" transform="translate(.447 48.95)"/>
+    <g data-name="Group 56020">
+        <g data-name="Group 56019">
+            <path data-name="Path 48886" d="M191.769 141.261a1.485 1.485 0 0 0-2.151 0l-2.3 2.3-2.3-2.3a1.521 1.521 0 1 0-2.151 2.151l3.38 3.379a1.485 1.485 0 0 0 2.151 0l3.379-3.379a1.485 1.485 0 0 0-.008-2.151z" transform="translate(-120.315 -81.711)" style="fill:url(#4a7ke1605c)"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+    <g data-name="Rectangle 19883" style="stroke:rgba(255,255,255,.69);fill:#fff">
+        <rect width="60" height="60" rx="20" style="stroke:none"/>
+        <rect x=".5" y=".5" width="59" height="59" rx="19.5" style="fill:none"/>
+    </g>
+    <g data-name="Menu">
+        <path data-name="Rectangle 19878" transform="translate(17 28.789)" style="fill:#fff" d="M0 0h26.44v2H0z"/>
+        <path data-name="Rectangle 19879" transform="translate(17.22 20)" style="fill:#fff" d="M0 0h26v2H0z"/>
+        <path data-name="Rectangle 19880" transform="translate(17.22 37)" style="fill:#fff" d="M0 0h26v2H0z"/>
+    </g>
+</svg>

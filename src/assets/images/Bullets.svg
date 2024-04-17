@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="8.8" height="30.668" viewBox="0 0 8.8 30.668">
+    <g data-name="Into Bullets" transform="translate(-637 -729.8)">
+        <g data-name="2" transform="translate(637 736.505)" style="stroke:#fff;stroke-width:2px;fill:none">
+            <circle cx="4.4" cy="4.4" r="4.4" style="stroke:none"/>
+            <circle cx="4.4" cy="4.4" r="3.4" style="fill:none"/>
+        </g>
+        <circle data-name="1" cx="1.4" cy="1.4" r="1.4" transform="translate(640 729.8)" style="fill:#fff"/>
+        <circle data-name="3" cx="1.4" cy="1.4" r="1.4" transform="translate(640 749.211)" style="fill:#fff"/>
+        <circle data-name="4" cx="1.4" cy="1.4" r="1.4" transform="translate(640 757.668)" style="fill:#fff"/>
+    </g>
+</svg>

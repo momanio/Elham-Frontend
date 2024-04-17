@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="134" height="134" viewBox="0 0 134 134">
+    <defs>
+        <linearGradient id="h8bvwcxs3b" x1="1" y1="-.027" x2=".106" y2="-.036" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#a433f0"/>
+            <stop offset="1" stop-color="#bebebf"/>
+        </linearGradient>
+        <linearGradient id="a4c0o32fgd" x1=".5" x2=".5" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#fff" stop-opacity=".839"/>
+            <stop offset="1" stop-color="#e4bcff"/>
+        </linearGradient>
+        <filter id="9604hza4ja" x="0" y="0" width="134" height="134" filterUnits="userSpaceOnUse">
+            <feOffset/>
+            <feGaussianBlur stdDeviation="10" result="blur"/>
+            <feFlood flood-color="#c876ff"/>
+            <feComposite operator="in" in2="blur"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <filter id="p2hew6d1wc" x="43.519" y="44.851" width="46.962" height="44.298" filterUnits="userSpaceOnUse">
+            <feOffset/>
+            <feGaussianBlur stdDeviation="2.5" result="blur-2"/>
+            <feFlood flood-color="#8240ae" flood-opacity=".42"/>
+            <feComposite operator="in" in2="blur-2"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g style="filter:url(#9604hza4ja)">
+        <circle data-name="Ellipse 3385" cx="37" cy="37" r="37" transform="translate(30 30)" style="fill:url(#h8bvwcxs3b)"/>
+    </g>
+    <g style="filter:url(#p2hew6d1wc)">
+        <path data-name="develop-svgrepo-com" d="M35.962 30.3V5H4v25.3h10.654v1.332h-1.332V34.3H26.64v-2.665h-1.332V30.3zM6.663 7.663H33.3V27.64H6.663zm15.981 23.972h-5.327V30.3h5.327zm-4-18.644H9.327v-2.664h9.322zm5.327 4H11.99v-2.669h11.986zm-2.663 4H11.99v-2.674h9.322zm-6.659 4H9.327v-2.678h5.327z" transform="translate(47.02 47.35)" style="fill:url(#a4c0o32fgd)"/>
+    </g>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="134" height="134" viewBox="0 0 134 134">
+    <defs>
+        <linearGradient id="hkyk27e2kb" x1="1" y1="-.027" x2=".106" y2="-.036" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#a433f0"/>
+            <stop offset="1" stop-color="#bebebf"/>
+        </linearGradient>
+        <linearGradient id="j86wdjdtsd" x1=".5" x2=".5" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#fff" stop-opacity=".839"/>
+            <stop offset="1" stop-color="#e4bcff"/>
+        </linearGradient>
+        <filter id="r0pfjzo24a" x="0" y="0" width="134" height="134" filterUnits="userSpaceOnUse">
+            <feOffset/>
+            <feGaussianBlur stdDeviation="10" result="blur"/>
+            <feFlood flood-color="#c876ff"/>
+            <feComposite operator="in" in2="blur"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <filter id="2qropk5fzc" x="44.507" y="47.588" width="44.987" height="38.823" filterUnits="userSpaceOnUse">
+            <feOffset/>
+            <feGaussianBlur stdDeviation="2.5" result="blur-2"/>
+            <feFlood flood-color="#8240ae" flood-opacity=".42"/>
+            <feComposite operator="in" in2="blur-2"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g style="filter:url(#r0pfjzo24a)">
+        <circle data-name="Ellipse 3385" cx="37" cy="37" r="37" transform="translate(30 30)" style="fill:url(#hkyk27e2kb)"/>
+    </g>
+    <g style="filter:url(#2qropk5fzc)">
+        <path data-name="Path 48892" d="m2 16.483 3.365-3.365 6.163 6.161L27.208 3.6l3.365 3.365-19.047 19.044z" transform="translate(50.71 52.2)" style="stroke:#b27fd4;fill:url(#j86wdjdtsd)"/>
+    </g>
+</svg>
