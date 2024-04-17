@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import backgroundImage from "../assets/images/BG1.png";
 import InfoContainer from "../components/UI/InfoContainer";
+import NavBar from "../navigation/NavBar";
 const Home = () => {
   return (
     <div
@@ -18,6 +19,7 @@ const Home = () => {
           }
         />
       </div>
+      <NavBar />
     </div>
   );
 };

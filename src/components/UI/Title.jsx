@@ -1,14 +1,28 @@
 /* eslint-disable react/prop-types */
 // eslint-disable-next-line react/prop-types
 
-const Title = ({ text, style }) => {
+const Title = ({ text }) => {
   return (
-    <h1
-      className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-4 text-center text-wrap"
-      style={style}
-    >
-      {text}
-    </h1>
+    <div className="mb-10 flex justify-center items-center text-center flex-col">
+      <h2
+        className=" text-white  mb-2"
+        style={{
+          width: "398px",
+          height: "127px",
+          textShadow: "5px 5px 20px #000",
+          fontStretch: "normal",
+          fontFamily: "Philosopher",
+          fontSize: "60px",
+          fontWeight: "bold",
+          lineHeight: "1",
+          letterSpacing: "normal",
+          textAlign: "center",
+          color: "#fff",
+        }}
+      >
+        {text}
+      </h2>
+    </div>
   );
 };
 

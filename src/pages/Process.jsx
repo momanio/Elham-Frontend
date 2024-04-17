@@ -3,50 +3,45 @@ import backgroundImage from "../assets/images/BG2@2x.png";
 import TourCard from "../components/reusable/TourCard";
 import { ideat, define, design, build, deploy } from "../assets/gallery";
 import Button from "../components/UI/Button";
+import Title from "../components/UI/Title";
 
 const Process = () => {
   return (
     <div
       id="process"
-      className="h-screen bg-center bg-no-repeat bg-cover  flex items-center justify-center"
+      className="bg-center bg-no-repeat bg-cover  flex items-center justify-center"
       style={{
         backgroundImage: `url(${backgroundImage})`,
       }}
     >
-      <div className="text-white text-center py-10">
-        <h2
-          className="text-5xl font-bold  my-3 #fff "
-          style={{
-            width: "398px",
-            height: "127px",
-            margin: "152px 145.3px 26px 227px",
-            textShadow: "5px 5px 20px #000",
-            fontStretch: "normal",
-            fontFamily: "Philosopher",
-            fontSize: "60px",
-            fontWeight: "bold",
-            lineHeight: "1",
-            letterSpacing: "normal",
-            textAlign: "center",
-            color: "#fff",
-          }}
-        >
-          Our Process
-        </h2>
+      <div className="text-white items-center text-center py-10">
+        <Title text={"Our Process"} />
         <div className=" grid-cols-5 gap-1 m-5">
           <div className="flex justify-center   items-center">
-            <TourCard image={ideat} title="ideat" />
-            <TourCard image={define} title="define" />
-            <TourCard image={design} title="design" />
-            <TourCard image={build} title="build" />
-            <TourCard image={deploy} title="deploy" />
+            <TourCard image={ideat} title="ideat" description={"Bla Bla Bla"} />
+            <TourCard
+              image={define}
+              title="define"
+              description={"Bla Bla Bla"}
+            />
+            <TourCard
+              image={design}
+              title="design"
+              description={"Bla Bla Bla"}
+            />
+            <TourCard image={build} title="build" description={"Bla Bla Bla"} />
+            <TourCard
+              image={deploy}
+              title="deploy"
+              description={"Bla Bla Bla"}
+            />
           </div>
         </div>
         <div className="py-10 text-white text-center">
           <Button
             text="Get in Touch"
             style={{ hover: { color: "white" } }}
-            className="w-full"
+            className="py-5"
           />
         </div>
       </div>

@@ -4,13 +4,12 @@ import Logo from "../../assets/images/Logo.png";
 
 const InfoContainer = ({ title, description }) => {
   return (
-    <div className="mb-10 flex justify-center items-center text-center flex-col">
+    <div className="mx-10 my-10 flex justify-center items-center text-center flex-col">
       <h2
-        className=" text-white  mb-2"
+        className="text-white  mb-2"
         style={{
           width: "398px",
           height: "127px",
-          margin: "152px 145.3px 26px 227px",
           textShadow: "5px 5px 20px #000",
           fontStretch: "normal",
           fontFamily: "Philosopher",
@@ -25,7 +24,7 @@ const InfoContainer = ({ title, description }) => {
         {title}
       </h2>
       <p
-        className="text-white  mb-4 "
+        className="text-white  mb-4"
         style={{
           width: "548px",
           height: "48px",

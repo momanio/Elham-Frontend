@@ -3,7 +3,6 @@
 import { useState } from "react";
 import { faArrowRight, faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Title from "../UI/Title";
 
 const Slider = ({ clients }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -19,11 +18,8 @@ const Slider = ({ clients }) => {
   };
 
   return (
-    <div className="hidden md:flex flex-col max-w-xl mx-auto my-5 md:my-10 lg:my-16">
-      <div className="mb-8">
-        <Title style={{ color: "rgb(34 197 94)" }} text="Customer Reviews" />
-      </div>
-      <div className="flex items-center">
+    <div className="hidden md:flex flex-col max-w-2xl mx-auto my-5 md:my-10 ">
+      <div className="flex items-center justify-center">
         <button
           onClick={prevSlide}
           className="hidden md:flex text-2xl text-gray-500 focus:outline-none"
@@ -39,16 +35,16 @@ const Slider = ({ clients }) => {
           >
             {clients.map((client) => (
               <div key={client?.id} className="flex-shrink-0 w-full flex-wrap">
-                <div className="bg-gray-100 p-4 rounded-lg">
-                  <p className="text-gray-800">{client.comment}</p>
+                <h1 className="text-white mt-2 font-extrabold text-xl">
+                  {client.name}
+                </h1>
+                <p className="text-fuchsia-50-">{client.comment}</p>
+                <div className="bg-transparent opacity-4 py-10 rounded-lg">
                   <div className="flex flex-row justify-center gap-5 mt-5">
-                    <h1 className="text-black mt-2 font-extrabold text-xl">
-                      {client.name}
-                    </h1>
                     <img
-                      src={client.avatar}
+                      src={client.image}
                       alt={`${client.name} avatar`}
-                      className="w-12 h-12 rounded-full mb-4"
+                      className="w-auto h-auto  mb-4"
                     />
                   </div>
                 </div>
