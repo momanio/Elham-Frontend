@@ -11,7 +11,7 @@ const NavBar = () => {
 
   return (
     <nav className="bg-transparent  fixed py-10 bottom-0 left-0 z-50 w-full h-16  items-center">
-      <div className="flex justify-center flex-col  bottom-0 left-0 z-50 w-full h-16 bg-transparent ">
+      <div className="flex justify-center flex-col fixed bottom-0 left-0 z-50 w-full h-16 bg-transparent ">
         <div className="grid pb-5  max-w-xl  mx-auto">
           <span
             type="button"
