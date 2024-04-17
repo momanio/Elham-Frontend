@@ -11,11 +11,11 @@ const NavBar = () => {
 
   return (
     <nav className="bg-transparent  fixed py-10 bottom-0 left-0 z-50 w-full h-16  items-center">
-      <div class="flex justify-center flex-col fixed bottom-0 left-0 z-50 w-full h-16 bg-transparent ">
-        <div class="grid pb-5  max-w-xl  mx-auto">
-          <a
+      <div className="flex justify-center flex-col  bottom-0 left-0 z-50 w-full h-16 bg-transparent ">
+        <div className="grid pb-5  max-w-xl  mx-auto">
+          <span
             type="button"
-            class="inline-flex flex-col items-center justify-center text-white hover:bg-gray-50 dark:hover:bg-transparent group"
+            className="inline-flex flex-col items-center justify-center text-white hover:bg-gray-50 dark:hover:bg-transparent group"
           >
             <LinkWithAnimation
               path="process"
@@ -26,7 +26,7 @@ const NavBar = () => {
             />
 
             <FontAwesomeIcon icon={faEllipsisVertical} />
-          </a>
+          </span>
         </div>
       </div>
     </nav>
