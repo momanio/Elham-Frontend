@@ -26,7 +26,7 @@ const Slider = ({ clients }) => {
         >
           <FontAwesomeIcon icon={faArrowLeft} />
         </button>
-        <div className="flex-1 mx-4 my-4 overflow-hidden">
+        <div className="overflow-hidden">
           <div
             className="flex transition-transform ease-in-out duration-300"
             style={{
@@ -38,13 +38,13 @@ const Slider = ({ clients }) => {
                 <h1 className="text-white mt-2 font-extrabold text-xl">
                   {client.name}
                 </h1>
-                <p className="text-fuchsia-50-">{client.comment}</p>
-                <div className="bg-transparent opacity-4 py-10 rounded-lg">
-                  <div className="flex flex-row justify-center gap-5 mt-5">
+                <p className="">{client.comment}</p>
+                <div className="bg-transparent opacity-4 py-5 rounded-lg">
+                  <div className="flex flex-row justify-center">
                     <img
                       src={client.image}
                       alt={`${client.name} avatar`}
-                      className="w-auto h-auto  mb-4"
+                      className="w-auto h-auto"
                     />
                   </div>
                 </div>

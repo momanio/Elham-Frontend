@@ -3,12 +3,14 @@
 
 const Title = ({ text }) => {
   return (
-    <div className="mb-10 flex justify-center items-center text-center flex-col">
+    <div className="my-10 flex justify-center items-center text-center">
       <h2
-        className=" text-white  mb-2"
+        className=" text-white"
         style={{
           width: "398px",
           height: "127px",
+          marginTop: "50px",
+          marginBottom: "5px",
           textShadow: "5px 5px 20px #000",
           fontStretch: "normal",
           fontFamily: "Philosopher",

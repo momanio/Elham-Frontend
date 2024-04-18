@@ -14,10 +14,10 @@ const Process = () => {
         backgroundImage: `url(${backgroundImage})`,
       }}
     >
-      <div className="text-white items-center text-center py-10">
+      <div className="text-white items-center text-center">
         <Title text={"Our Process"} />
-        <div className=" grid-cols-5 gap-1 m-5">
-          <div className="flex justify-center   items-center">
+        <div className="grid-cols-5">
+          <div className="inline-flex justify-center items-center">
             <TourCard image={ideat} title="ideat" description={"Bla Bla Bla"} />
             <TourCard
               image={define}
@@ -37,11 +37,11 @@ const Process = () => {
             />
           </div>
         </div>
-        <div className="py-10 text-white text-center">
+        <div className="py-10 my-5 text-white text-center">
           <Button
             text="Get in Touch"
             style={{ hover: { color: "white" } }}
-            className="py-5"
+            className=""
           />
         </div>
       </div>

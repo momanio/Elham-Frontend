@@ -4,9 +4,9 @@ import Logo from "../../assets/images/Logo.png";
 
 const InfoContainer = ({ title, description }) => {
   return (
-    <div className="mx-10 my-10 flex justify-center items-center text-center flex-col">
+    <div className="flex flex-col justify-center items-center text-center ">
       <h2
-        className="text-white  mb-2"
+        className="text-white py-10"
         style={{
           width: "398px",
           height: "127px",
@@ -24,11 +24,11 @@ const InfoContainer = ({ title, description }) => {
         {title}
       </h2>
       <p
-        className="text-white  mb-4"
+        className="text-white  py-10"
         style={{
           width: "548px",
           height: "48px",
-          margin: "26px 70.3px 53.3px 152px",
+          margin: "40px 40px 40px 40px",
           fontStretch: "normal",
           fontFamily: "Poppins",
           fontSize: "15px",
