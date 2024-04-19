@@ -36,7 +36,7 @@ const LinkWithAnimation = ({
   };
 
   return (
-    <div className="bottom-0 py-5  left-0 z-50 w-full h-3 bg-transparent">
+    <div className="py-10  left-0 z-50 w-full h-4 bg-transparent">
       <Link
         to={path}
         smooth={true}
