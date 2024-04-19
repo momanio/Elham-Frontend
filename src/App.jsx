@@ -7,11 +7,11 @@ import NavBar from "./navigation/NavBar";
 function App() {
   return (
     <main className="bg-black">
+      <NavBar />
       <Home />
       <Process />
       <Services />
       <Contact />
-      <NavBar />
     </main>
   );
 }

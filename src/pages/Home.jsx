@@ -6,7 +6,7 @@ import LinkWithAnimation from "../components/UI/LinkWithAnimation";
 
 const Home = () => {
   return (
-    <section
+    <header
       id="home"
       className="h-screen bg-center bg-no-repeat bg-cover  flex items-center justify-center"
       style={{
@@ -29,7 +29,7 @@ const Home = () => {
           hoverColor="rgb(209, 213, 219)"
         />
       </div>
-    </section>
+    </header>
   );
 };
 

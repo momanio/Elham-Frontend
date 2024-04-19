@@ -1,6 +1,6 @@
 const NavBar = () => {
   return (
-    <div class="container fixed bottom-0 left-0 z-50 w-full  inline-block rounded  sm:flex sm:items-center sm:justify-between  sm:p-6 xl:p-8  antialiased">
+    <div class="fixed bottom-0 left-0 z-50  w-full  inline-block rounded  sm:flex sm:items-center sm:justify-between  sm:p-6 xl:p-5  antialiased">
       <button
         type="button"
         class="text-white border bg-transparent focus:outline-none focus:ring-4  font-medium rounded-full flex text-sm px-5 py-2.5 text-center"
