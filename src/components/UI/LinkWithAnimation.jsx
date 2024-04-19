@@ -36,12 +36,11 @@ const LinkWithAnimation = ({
   };
   const svgStyle = {
     margin: "0 auto",
-    width: "50%",
-    maxWidth: "50px",
+    maxWidth: "25px",
     height: "auto",
   };
   return (
-    <div className="py-15 pb-10 left-0 z-50 w-full h-4 bg-transparent">
+    <div className="py-15 pb-12  w-full h-4 bg-transparent">
       <Link
         to={path}
         smooth={true}
@@ -52,23 +51,7 @@ const LinkWithAnimation = ({
         onClick={onClick}
       >
         {text}
-        <svg
-          className=" text-gray-800 dark:text-white"
-          aria-hidden="true"
-          xmlns="http://www.w3.org/2000/svg"
-          style={svgStyle}
-          width="50"
-          height="40"
-          fill="none"
-          viewBox="0 0 24 24"
-        >
-          <path
-            stroke="currentColor"
-            stroke-linecap="round"
-            stroke-width="2"
-            d="M12 6h.01M12 12h.01M12 18h.01"
-          />
-        </svg>
+        <img src={Icon} style={{ ...svgStyle }} alt="Icon" />
       </Link>
     </div>
   );

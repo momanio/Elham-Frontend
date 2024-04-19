@@ -18,7 +18,7 @@ const Slider = ({ clients }) => {
   };
 
   return (
-    <div className="hidden md:flex flex-col max-w-2xl mx-auto my-5 md:my-10 ">
+    <div className=" md:flex flex-col max-w-2xl mx-auto my-5 md:my-10 ">
       <div className="flex items-center justify-center">
         <button
           onClick={prevSlide}
