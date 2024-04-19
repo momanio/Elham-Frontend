@@ -5,12 +5,12 @@ import Process from "./pages/Process";
 import Contact from "./pages/Contact";
 function App() {
   return (
-    <div className="bg-black flex flex-col">
+    <main className="bg-black">
       <Home />
       <Process />
       <Services />
       <Contact />
-    </div>
+    </main>
   );
 }
 

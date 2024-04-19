@@ -3,11 +3,6 @@ const TourCard = ({ image, title, description }) => {
   return (
     <div className="flex flex-col justify-center items-center text-center ">
       <div className="text-white  text-center">
-        <div className="relative  bg-gray-300 bg-opacity-20 backdrop-blur-lg rounded-xl flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-          <div className="text-white text-center">
-            <p className="">{description}</p>
-          </div>
-        </div>
         <span
           className="font-normal"
           style={{

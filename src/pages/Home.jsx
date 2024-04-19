@@ -1,10 +1,12 @@
 /* eslint-disable react/no-unescaped-entities */
 import backgroundImage from "../assets/images/BG1.png";
 import InfoContainer from "../components/UI/InfoContainer";
-import NavBar from "../navigation/NavBar";
+
+import LinkWithAnimation from "../components/UI/LinkWithAnimation";
+
 const Home = () => {
   return (
-    <div
+    <section
       id="home"
       className="h-screen bg-center bg-no-repeat bg-cover  flex items-center justify-center"
       style={{
@@ -18,9 +20,16 @@ const Home = () => {
             "We Assure you the Best Web Designing, Mobile App Development & Digital Marketing Services in the Kingdom of Saudi Arabia"
           }
         />
+
+        <LinkWithAnimation
+          path="process"
+          text="Scroll Down"
+          className="page-scroll"
+          color="white"
+          hoverColor="rgb(209, 213, 219)"
+        />
       </div>
-      <NavBar />
-    </div>
+    </section>
   );
 };
 

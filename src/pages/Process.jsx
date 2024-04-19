@@ -5,11 +5,12 @@ import { ideat, define, design, build, deploy } from "../assets/gallery";
 import Button from "../components/UI/Button";
 import Title from "../components/UI/Title";
 
+import LinkWithAnimation from "../components/UI/LinkWithAnimation";
 const Process = () => {
   return (
-    <div
+    <section
       id="process"
-      className="bg-center bg-no-repeat bg-cover  flex items-center justify-center"
+      className="h-screen bg-center bg-no-repeat bg-cover  flex items-center justify-center"
       style={{
         backgroundImage: `url(${backgroundImage})`,
       }}
@@ -44,8 +45,15 @@ const Process = () => {
             className=""
           />
         </div>
+        <LinkWithAnimation
+          path="services"
+          text="Scroll Down"
+          className="page-scroll"
+          color="white"
+          hoverColor="rgb(209, 213, 219)"
+        />
       </div>
-    </div>
+    </section>
   );
 };
 

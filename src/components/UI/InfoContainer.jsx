@@ -4,7 +4,7 @@ import Logo from "../../assets/images/Logo.png";
 
 const InfoContainer = ({ title, description }) => {
   return (
-    <div className="flex flex-col justify-center items-center text-center ">
+    <div className="flex flex-col justify-center items-center text-center py-10">
       <h2
         className="text-white py-10"
         style={{

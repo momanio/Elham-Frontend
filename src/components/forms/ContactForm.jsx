@@ -1,9 +1,8 @@
 import Button from "../UI/Button";
-import backgroundImage from "../../assets/images/Send.svg";
 const ContactForm = () => {
   return (
     <div className="flex flex-col justify-center items-center">
-      <form className="flex flex-col gap-2 justify-start text-black w-full">
+      <form className="flex flex-col gap-2 justify-center text-black w-full">
         <div className="flex flex-col justify-center items-center">
           <input
             placeholder="Email"
@@ -19,12 +18,9 @@ const ContactForm = () => {
           className="text-white placeholder-white text-lg bg-transparent border-b border-white outline-none focus:border-none "
         />
         <Button
-          text=""
-          style={{
-            backgroundImage: `url(${backgroundImage})`,
-            hover: { color: "red" },
-          }}
-          className="w-full justify-center sm:w-auto"
+          text="Get in Touch"
+          style={{ hover: { color: "white" } }}
+          className=""
         />
       </form>
     </div>

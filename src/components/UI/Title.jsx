@@ -3,7 +3,7 @@
 
 const Title = ({ text }) => {
   return (
-    <div className="my-10 flex justify-center items-center text-center">
+    <div className="flex justify-center items-center text-center">
       <h2
         className=" text-white"
         style={{
